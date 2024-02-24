@@ -9,13 +9,14 @@ body {
     background-color: black;
     font-family: 'Lato', sans-serif;
     background-image: url('../assets/Illustration_sans_titre\ 15.png'); 
-    background-size: 100%;
-    background-position: center;
+    background-size: 90%;
+    background-position: 30% 52%;
+    background-repeat: no-repeat;
     
 }
 
 body.invert {
-    background-image: url('chemin/vers/votre/image_inversee.jpg');
+    background-image: url('');
 }
 
 
@@ -39,7 +40,7 @@ body.invert {
 
 .container {
     text-align: center;   
-    width: 1200px;
+    width: 100%;
     display: flex;
     gap: 2%;
     flex-wrap: wrap;
@@ -106,6 +107,9 @@ input[type="date"] {
     }
 }
 
+/* #addTask {
+    margin-top: 5%;
+} */
 
 #addTask:hover {
     animation: shake 0.5s ease-in-out infinite
