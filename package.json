@@ -2,6 +2,7 @@
   "name": "2do_list_kasia",
   "version": "1.0.0",
   "description": "",
+  "homepage":  "https://kasiangk.github.io/2DO_LIST/",
   "main": "index.js",
   "scripts": {
     "dev": "vite",
