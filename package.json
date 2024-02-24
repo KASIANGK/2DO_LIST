@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "homepage": "https://kasiangk.github.io/2DO_LIST/",
-  "main": "index.js",
+  "main": "index.html",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
