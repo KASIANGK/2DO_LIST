@@ -273,7 +273,7 @@ canvas.webgl {
       justify-content: center;
       background-color: transparent;
       margin-top: 5.5%;
-      margin-left: -10.5%;
+      margin-left: -13.5%;
       width: 90% !important;
       height: auto !important;
   }
@@ -282,7 +282,7 @@ canvas.webgl {
   .video-container {
     position: absolute;
     top: 5%;
-    left: -5%;
+    left: -10%;
     width: 100vw;
     height: 100%;
     z-index: -1; 
@@ -312,7 +312,7 @@ canvas.webgl {
     height: 10%;
     position: relative;
     margin-top: -35.5%;
-    margin-left: 6.6%;
+    margin-left: 7.6%;
     padding-bottom: 50%;
     font-family: 'Lato', sans-serif;
     font-weight: 700;
@@ -342,8 +342,8 @@ canvas.webgl {
       display: flex;
       justify-content: center;
       background-color: transparent;
-      margin-top: -5.5%;
-      margin-left: -10.5%;
+      margin-top: -3.5%;
+      margin-left: -15.5%;
       width: 90% !important;
       height: auto !important;
   }
@@ -352,7 +352,7 @@ canvas.webgl {
   .video-container {
     position: absolute;
     top: 0%;
-    left: -5%;
+    left: -10%;
     width: 100vw;
     height: 100%;
     z-index: -1; 
@@ -381,7 +381,7 @@ canvas.webgl {
     width: 70%;
     height: 10%;
     position: relative;
-    margin-top: -38.5%;
+    margin-top: -37.5%;
     margin-left: 35.6%;
     padding-bottom: 50%;
     font-family: 'Lato', sans-serif;
@@ -503,8 +503,8 @@ canvas.webgl {
     width: 70%;
     height: 10%;
     position: relative;
-    margin-top: -38.5%;
-    margin-left: 35.6%;
+    margin-top: -35%;
+    margin-left: 50.6%;
     padding-bottom: 50%;
     font-family: 'Lato', sans-serif;
     font-weight: 700;
