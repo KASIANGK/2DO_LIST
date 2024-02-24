@@ -14,10 +14,6 @@ function nouvelleTache(category) {
     taskTextDiv.className = "taskText";
     taskTextDiv.textContent = inputValue;
 
-    let taskDateDiv = document.createElement("div");
-    taskDateDiv.className = "taskDate";
-    taskDateDiv.textContent = "Due date: " + dueDateValue;
-
     let deleteButton = document.createElement("button");
     deleteButton.textContent = "❌";
     deleteButton.onclick = function() {
@@ -36,6 +32,11 @@ function nouvelleTache(category) {
         markDone(taskDiv)
     };
 
+    let taskDateDiv = document.createElement("div");
+    taskDateDiv.className = "taskDate";
+    taskDateDiv.textContent = "Due date: " + dueDateValue;
+
+    
     let taskButtonsDiv = document.createElement("div");
     taskButtonsDiv.className = "taskButtons";
     taskButtonsDiv.appendChild(deleteButton);

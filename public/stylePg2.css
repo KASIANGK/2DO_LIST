@@ -121,23 +121,28 @@ input[type="date"] {
     display: none;
     width: 17.6em;
     height: 19em;
-    background-color: none;
-    margin-top: 3%; 
+    background-color: none; 
     line-height: 100px;
     color: white;
     font-weight: bold;
     margin-right: 10px; 
     position: relative; 
-    align-items: flex-end; 
+    align-items: flex-start; 
     display: flex; 
     margin-bottom: 5px;
+    flex-direction: column-reverse;
 
 }
 
-.taskBoutons {
+.taskButtons {
     position: absolute; 
     top: -30px; 
     padding-right: 5px; 
+}
+.taskDate {
+    position: absolute; 
+    top: 0; 
+    padding-left: 3%;
 }
 
 button {
