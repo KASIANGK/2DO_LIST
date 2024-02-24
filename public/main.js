@@ -64,7 +64,7 @@ const clock = new THREE.Clock()
 const tick = () => 
 {
 	const elapsedTime = clock.getElapsedTime()
-    camera.position.x = Math.sin(cursor.x * Math.PI * 2) * 4.5
+    camera.position.x = Math.sin(cursor.x * Math.PI * 2) * 5.5
 	  camera.position.z = Math.cos(cursor.x * Math.PI * 2) * 4.5
     camera.position.y = cursor.y * 10
     camera.lookAt(new THREE.Vector3())
@@ -107,7 +107,7 @@ const loader = new GLTFLoader();
 loader.load('../assets/sceneBis2.gltf', function (gltf) {
     const loadedMesh = gltf.scene.children[0]; 
 
-    const newScale = 1.4
+    const newScale = 1.2
     loadedMesh.scale.set(newScale, newScale, newScale)
 
     

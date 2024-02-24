@@ -2,19 +2,19 @@ body {
     width : 100vw;
     height: 100vh;
     background-color : black;
-    overflow-x: hidden
-
+    overflow-x: hidden;
+    margin: 0%;
 }
 
-
 .clickDessus {
-  width: 520px;
+  width: 70%;
   height: 10%;
-  position: absolute;
-  margin-top: -46.5%;
-  padding-left: 35%;
+  position: relative;
+  margin-top: -43.5%;
+  margin-left: 29.6%;
   padding-bottom: 50%;
   font-family: 'Lato', sans-serif;
+  font-weight: 700;
 }
 
 .clickDessus a {
@@ -23,16 +23,19 @@ body {
 
 .clickDessus h1:hover {
   color: black; 
+  width: 100%;
 }
 
 
 .clickDessus h1 {
   transition: color 0.3s ease, transform 0.3s ease; 
+  width: 100%;
 }
 
 .clickDessus h1:hover {
   color: black; 
   transform: translateY(-5px);
+  font-style: italic;
 }
 
 h1::before {
@@ -66,21 +69,26 @@ h1::before {
   position: absolute;
   top: 0; right: 0; bottom: 0; left: 0;
   inset: 0 0 0 0;
-  background: hsl(200 100% 80%);
+  background: hsl(200, 72%, 75%);
   z-index: -1;
   transition: transform .3s ease;
-  width: 800px;
+  width: 100%;
 }
 
 h1 {
   position: relative;
-  font-size: 2.3rem;
+  font-size: 1.5em;
   z-index: 3;
   color: white;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: normal;
   
 }
 
-
+#clickHeading {
+  width: 100%;
+}
 
 
 
@@ -90,21 +98,23 @@ canvas.webgl {
     display: flex;
     justify-content: center;
     background-color: transparent;
-    margin-top: -5%;
-    margin-left: -5%
+    margin-top: -9.5%;
+    margin-left: -5%;
+    width: 67% !important;
+    height: auto !important;
 }
 
 
 .video-container {
   position: absolute;
-  top: -5%;
+  top: -10%;
   left: 0%;
   width: 100vw;
   height: 100%;
   z-index: -1; 
 }
 #backgroundVideo {
-  width: 100vw;
+  width: 100%;
 }
 /* 
 
@@ -216,3 +226,70 @@ canvas.webgl {
   .element {
     cursor: url("./modeles/dddd.png"), auto;
   } */
+
+
+  @media screen and (max-width: 425px) {
+    body {
+      width : 100vw;
+      height: 100vh;
+      background-color : black;
+      overflow-x: hidden;
+      margin: 0%;
+  }
+  
+  .clickDessus {
+    width: 70%;
+    height: 10%;
+    position: relative;
+    margin-top: -35.5%;
+    margin-left: 16.6%;
+    padding-bottom: 50%;
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+  }
+
+  
+  h1 {
+    position: relative;
+    font-size: 1em;
+    z-index: 3;
+    color: white;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    
+  }
+  
+  #clickHeading {
+    width: 100%;
+  }
+  
+  
+  
+  
+  canvas.webgl {
+      margin-top: 5%;
+      display: flex;
+      justify-content: center;
+      background-color: transparent;
+      margin-top: 5.5%;
+      margin-left: -10.5%;
+      width: 90% !important;
+      height: auto !important;
+  }
+  
+  
+  .video-container {
+    position: absolute;
+    top: 5%;
+    left: -5%;
+    width: 100vw;
+    height: 100%;
+    z-index: -1; 
+    overflow-x: hidden;
+  }
+  #backgroundVideo {
+    width: 130%;
+  }
+  }
+  
