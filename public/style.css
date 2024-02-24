@@ -293,3 +293,72 @@ canvas.webgl {
   }
   }
   
+
+
+
+
+
+  @media screen and (min-width: 768px) {
+    body {
+      width : 100vw;
+      height: 100vh;
+      background-color : black;
+      overflow-x: hidden;
+      margin: 0%;
+  }
+  
+  .clickDessus {
+    width: 70%;
+    height: 10%;
+    position: relative;
+    margin-top: -35.5%;
+    margin-left: 6.6%;
+    padding-bottom: 50%;
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+  }
+
+  
+  h1 {
+    position: relative;
+    font-size: 1em;
+    z-index: 3;
+    color: white;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    
+  }
+  
+  #clickHeading {
+    width: 100%;
+  }
+  
+  
+  
+  
+  canvas.webgl {
+      margin-top: 5%;
+      display: flex;
+      justify-content: center;
+      background-color: transparent;
+      margin-top: -5.5%;
+      margin-left: -10.5%;
+      width: 90% !important;
+      height: auto !important;
+  }
+  
+  
+  .video-container {
+    position: absolute;
+    top: 0%;
+    left: -5%;
+    width: 100vw;
+    height: 100%;
+    z-index: -1; 
+    overflow-x: hidden;
+  }
+  #backgroundVideo {
+    width: 130%;
+  }
+  }
