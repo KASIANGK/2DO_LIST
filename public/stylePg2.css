@@ -121,7 +121,7 @@ input[type="date"] {
     display: none;
     width: 17.6em;
     height: 19em;
-    background-color: #e6a0ca;
+    background-color: none;
     margin-top: 3%; 
     line-height: 100px;
     color: white;
