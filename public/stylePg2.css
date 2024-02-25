@@ -8,10 +8,10 @@ body {
     height: fit-content;
     background-color: black;
     font-family: 'Lato', sans-serif;
-    background-image: url('../assets/Illustration_sans_titre\ 15.png'); 
+    background-image: url('../assets/td.png'); 
     background-size: 90%;
     background-position: 30% 52%;
-    background-repeat: no-repeat;
+    /* background-repeat: no-repeat; */
     
 }
 
@@ -192,4 +192,32 @@ button {
     font-family: 'Sora', sans-serif;
     margin-top: 5%;
     font-size: 20px;
+}
+
+
+.category-button {
+    width: 100px;
+    height: 60px;
+    font-size: 20px;
+    background-color: #f2f2f2; 
+    padding: 8px; 
+    border: 1px solid #ccc; 
+    border-radius: 4px; 
+    margin-top: -3%;
+    background-color: #4CAF50; 
+    color: white; 
+    padding: 10px 20px; 
+    border: none; 
+    border-radius: 5px; 
+    cursor: pointer; 
+
+}
+
+#dueDate {
+    width: 170px;
+}
+
+#dueDate,
+#taskInput {
+    margin-bottom:55px;
 }
