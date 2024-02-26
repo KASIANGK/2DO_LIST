@@ -221,3 +221,7 @@ button {
 #taskInput {
     margin-bottom:55px;
 }
+
+.tasks-container {
+    gap: 20px;
+}
